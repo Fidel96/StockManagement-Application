@@ -1,0 +1,82 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+  }
+
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.6); /* Add a dark overlay for better text readability */
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    background-color: green;
+    padding: 50px 20px;
+    border-radius: 10px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .feature {
+    width: 30%;
+    background-color: green;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h2 {
+    color: #fff;
+  }
+  
+  .get-started {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .get-started:hover {
+    background-color: #45a049;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    color: green;
+  }
+  
+@media (max-width: 768px) {
+    .header, .feature, .get-started, .footer {
+      width: 90%;
+    }
+  
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
